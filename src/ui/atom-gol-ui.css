@@ -1,0 +1,49 @@
+.atom-gol-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.atom-gol-rules {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.atom-gol-rule-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+  flex: 1 0;
+}
+
+.atom-gol-rule-label {
+  flex: 1 0;
+}
+
+.atom-gol-rule-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--chakra-colors-chakra-body-text);
+  cursor: pointer;
+  border-radius: 2px;
+  flex: 1 0;
+  background-color: var(--chakra-colors-whiteAlpha-200);
+}
+
+.atom-gol-rule-button:hover {
+  background-color: var(--chakra-colors-whiteAlpha-300);
+}
+
+.atom-gol-rule-button.survives.on {
+  background-color: var(--chakra-colors-blue-200);
+  color: var(--chakra-colors-chakra-body-text);
+}
+
+.atom-gol-rule-button.born.on {
+  background-color: var(--chakra-colors-blue-200);
+  color: var(--chakra-colors-chakra-body-text);
+}

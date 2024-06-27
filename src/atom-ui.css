@@ -1,0 +1,40 @@
+.atom-ui {
+  width: 300px;
+  margin: 6px;
+  position: absolute !important;
+  top: 4px;
+  right: 4px;
+}
+
+.atom-ui-cell {
+  display: flex;
+  align-self: center;
+  gap: 2px;
+}
+
+.atom-ui-control {
+  border-radius: var(--input-border-radius);
+  border: 1px solid var(--chakra-colors-chakra-border-color);
+  height: var(--input-height);
+  margin: 6px 0;
+  padding: 3px 0 3px 4px;
+}
+
+.atom-ui-row:not(:last-child) {
+  padding-bottom: 4px;
+}
+
+.atom-ui-button {
+  width: 100%;
+  margin-top: 6px;
+}
+
+.atom-ui-slider {
+  margin: 0 6px;
+  height: var(--input-height);
+}
+
+.atom-ui-select,
+.atom-ui-select .ant-select-selector {
+  width: 100%;
+}
