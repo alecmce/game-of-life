@@ -1,4 +1,4 @@
-  import { Box, Card, Grid } from "@chakra-ui/react";
+import { Box, Card, Grid } from "@chakra-ui/react";
 import { ReactNode } from "react";
 import './atom-ui.css';
 import { COLOR_SCHEME_OPTIONS, colorScheme } from "./state/colors";

@@ -20,10 +20,10 @@
   bottom: 1vmin;
   padding: 5px;
   width: 60vw;
-  min-width: 200px;
+  min-width: 350px;
   display: flex;
   flex-direction: row;
-  transition: right 200ms ease;
+  transition: transform 200ms ease;
 }
 
 .chakra-card.info .chakra-button {
@@ -31,27 +31,19 @@
 }
 
 .chakra-card.info.minimized {
-  right: -55.5vw;
+  transform: translate(calc(100% - 34px), calc(100% - 34px));
 }
 
 .chakra-card.info.minimized .chakra-button {
   transform: rotate(180deg);
 }
 
-.chakra-card.info .icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--chakra-colors-chakra-body-text);
-}
-
-.chakra-card.info.minimized .icon {
-  width: 24px;
-  height: 24px;
+.chakra-card.info svg {
   fill: var(--chakra-colors-chakra-body-text);
 }
 
 .chakra-card.info p {
-  padding: 5px;
+  padding: 1vmin;
   margin: 0;
 }
 
